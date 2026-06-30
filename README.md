@@ -89,6 +89,10 @@ birth.
 - Function 1: `--dest "<PATH>"` (default `~/Desktop/Personal-Information`)
 - Function 2: `--out "<PATH>"` (default `~/Desktop/Masked-Markdown`)
 
+### Unit Testing / output 
+- Function 1: `--dest "<PATH>"` (test directory `test/Personal-Information`)
+- Function 2: `--out "<PATH>"` (test directory `test/Masked-Markdown`)
+
 ### Tuning the tiers themselves
 To change which entity types count as HIGH vs LOW, or the exact thresholds in
 each preset, edit `HIGH_TIER`, `LOW_TIER`, and `SENSITIVITY_PRESETS` near the
