@@ -115,3 +115,9 @@ Scanned/image-only PDFs are flagged for manual review rather than guessed.
   preview and never-overwrite design make a miss or false positive
   recoverable. Always review the preview before moving and spot-check masked
   output before ingestion.
+
+## Testing 
+
+Modify CLI commands to be absolute for quarenteen file TODO 
+Mac - may need to install presideo and run on lower PY version
+

@@ -1,0 +1,30 @@
+{
+  "scanned_root": "/Users/David.Beach/Developer/versonis-duplication-usingAI/test",
+  "dest": "/Users/David.Beach/Desktop/Personal-Information",
+  "sensitivity": "medium",
+  "min_score": 0.4,
+  "model": "en_core_web_lg",
+  "generated_at": "2026-06-30T00:30:50",
+  "summary": {
+    "scanned": 1,
+    "flagged": 1,
+    "skipped": 0,
+    "errors": 0
+  },
+  "flagged": [
+    {
+      "path": "/Users/David.Beach/Developer/versonis-duplication-usingAI/test/test.md",
+      "reason": "high-sensitivity: US_SSN",
+      "entity_counts": {
+        "US_SSN": 1,
+        "LOCATION": 3
+      },
+      "high_hits": [
+        "US_SSN"
+      ],
+      "size_bytes": 84
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
